@@ -17,7 +17,7 @@ body {
     align-items: center; /* Centraliza verticalmente dentro do contêiner */
     width: 220px; /* Largura do contêiner igual à largura da imagem */
     height: 220px; /* Altura do contêiner igual à altura da imagem */
-}
+} 
 
 .imgviagens {
     border-radius: 50%;
