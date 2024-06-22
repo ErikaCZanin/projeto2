@@ -1,0 +1,95 @@
+body {
+    background-color: #ddfcff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: absolute; /* ou fixed */
+    top: 80px; /* Distância do topo */
+    right: 80px; /* Distância da direita */
+    margin: 0; 
+   
+}
+
+.item {
+    background-color: #4CAF50;
+    color: white;
+    width: calc(60% - 10px); /* Ajuste a largura conforme necessário */
+    padding: 5px;
+    position: absolute; 
+    top: 15px;
+    margin: 0; 
+    text-align: center;
+}
+
+.item2 {
+    background-color: #4CAF50;
+    color: white;
+    width: calc(60% - 20px);
+    padding: 5px;
+    margin-top: 30px; 
+    text-align: left;
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 220x;
+    height: 220px; 
+    margin-bottom: 30px;
+    left: 80px;
+}
+
+hr {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.aolado h2 {
+    flex: 1 0 30%; /* Cada item ocupa aproximadamente 30% do contêiner */
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+}
+
+.aolado .cima {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 150px;
+    margin-top: 20px
+}
+
+.aolado .baixo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu a {
+    position: relative;
+    margin-right: 7px; /* Margem entre os links */
+}
+
+.ht {
+    position: relative;
+    margin-right: 05px; /* Margem entre os links */
+    margin-left: 10px;
+    left: 100px;
+}
+
+.sob {
+    position: relative;
+}
+
+.par {
+    position: relative;
+}

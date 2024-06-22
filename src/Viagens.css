@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.centered-container {
+    background-color: #2c604e;
+    position: absolute;
+    top: 20px; /* Distância do topo */
+    right: 600px; /* Distância da direita */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente dentro do contêiner */
+    align-items: center; /* Centraliza verticalmente dentro do contêiner */
+    width: 220px; /* Largura do contêiner igual à largura da imagem */
+    height: 220px; /* Altura do contêiner igual à altura da imagem */
+}
+
+.imgviagens {
+    border-radius: 50%;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    height: 100%; /* Ocupa toda a altura do contêiner */
+}
+
+.container-menuv {
+    background-color: #98e9cc;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    top: 200px; /* Distância do topo */
+    width: 200px; /* Ajusta conforme necessário */
+    padding: 10px 20px; /* Ajuste de padding (topo/inferior e esquerda/direita) */
+    text-align: center;
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    position: relative;
+    left: 50px;
+}
